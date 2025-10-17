@@ -1,0 +1,43 @@
+# requirements.txt
+# --- Web UI Framework ---
+streamlit
+pandas
+openpyxl
+
+# --- Original Dependencies (Versions preserved) ---
+# Core ML & Vector DB
+numpy==1.26.4
+torch==2.3.1
+faiss-cpu==1.8.0
+sentence-transformers==2.7.0
+spacy==3.7.4
+
+# LangChain & Mistral AI
+langchain-mistralai>=0.1.6
+langchain-core==0.1.52
+langchain-text-splitters==0.0.1
+
+# Utilities
+requests==2.31.0
+ftfy==6.2.0
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+Pillow==10.3.0
+lxml==5.2.2
+
+# Advanced Preprocessing, Parsing & DB
+markdown-it-py==3.0.0
+readability-lxml==0.8.1
+lxml_html_clean==0.1.1
+dirtyjson==1.0.8
+rank-bm25==0.2.2
+tinydb==4.8.0
+
+# Hugging Face Transformers for local models
+transformers[torch]==4.41.2
+tiktoken==0.7.0
+chromadb==0.5.0
+google-generativeai
+onnxruntime==1.17.1
+
+# pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
